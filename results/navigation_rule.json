@@ -1,0 +1,118 @@
+{
+  "mode": "rule",
+  "checkpoint": null,
+  "deterministic": false,
+  "population": 10,
+  "episodes": [
+    {
+      "seed": 6001,
+      "days": 60,
+      "duplicate_cell_ticks": 0,
+      "blocked_agent_ticks": 37,
+      "blocked_agent_tick_rate": 0.0025694444444444445,
+      "max_consecutive_blocked_ticks": 5,
+      "max_blocked_context": {
+        "citizen": 0,
+        "name": "Mira",
+        "position": [
+          32,
+          8
+        ],
+        "target": [
+          32,
+          9
+        ],
+        "action": 0,
+        "path_length": 1,
+        "first_path_cell": [
+          32,
+          9
+        ]
+      },
+      "unreachable_path_ticks": 0,
+      "off_grid_agent_ticks": 0,
+      "unique_cells_visited": 293,
+      "max_cell_occupancy": 1,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "mean_wellbeing": 68.95285893856285,
+      "mean_health": 100.0,
+      "mean_hunger": 35.050000000002015,
+      "min_cash": 78.0
+    },
+    {
+      "seed": 6002,
+      "days": 60,
+      "duplicate_cell_ticks": 0,
+      "blocked_agent_ticks": 29,
+      "blocked_agent_tick_rate": 0.002013888888888889,
+      "max_consecutive_blocked_ticks": 5,
+      "max_blocked_context": {
+        "citizen": 0,
+        "name": "Mira",
+        "position": [
+          32,
+          8
+        ],
+        "target": [
+          32,
+          9
+        ],
+        "action": 0,
+        "path_length": 1,
+        "first_path_cell": [
+          32,
+          9
+        ]
+      },
+      "unreachable_path_ticks": 0,
+      "off_grid_agent_ticks": 0,
+      "unique_cells_visited": 295,
+      "max_cell_occupancy": 1,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "mean_wellbeing": 70.76437306803366,
+      "mean_health": 100.0,
+      "mean_hunger": 34.35000000000203,
+      "min_cash": 121.0
+    },
+    {
+      "seed": 6003,
+      "days": 60,
+      "duplicate_cell_ticks": 0,
+      "blocked_agent_ticks": 28,
+      "blocked_agent_tick_rate": 0.0019444444444444444,
+      "max_consecutive_blocked_ticks": 5,
+      "max_blocked_context": {
+        "citizen": 0,
+        "name": "Mira",
+        "position": [
+          32,
+          8
+        ],
+        "target": [
+          32,
+          9
+        ],
+        "action": 0,
+        "path_length": 1,
+        "first_path_cell": [
+          32,
+          9
+        ]
+      },
+      "unreachable_path_ticks": 1,
+      "off_grid_agent_ticks": 0,
+      "unique_cells_visited": 289,
+      "max_cell_occupancy": 1,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "mean_wellbeing": 68.6453740722238,
+      "mean_health": 100.0,
+      "mean_hunger": 39.250000000002025,
+      "min_cash": 78.0
+    }
+  ],
+  "seed_start": 6001,
+  "days": 60
+}

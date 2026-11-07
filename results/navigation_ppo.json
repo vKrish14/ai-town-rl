@@ -1,0 +1,118 @@
+{
+  "mode": "learned",
+  "checkpoint": "models\\ppo.pt",
+  "deterministic": false,
+  "population": 10,
+  "episodes": [
+    {
+      "seed": 6001,
+      "days": 60,
+      "duplicate_cell_ticks": 0,
+      "blocked_agent_ticks": 663,
+      "blocked_agent_tick_rate": 0.04604166666666667,
+      "max_consecutive_blocked_ticks": 22,
+      "max_blocked_context": {
+        "citizen": 5,
+        "name": "Nora",
+        "position": [
+          27,
+          7
+        ],
+        "target": [
+          27,
+          8
+        ],
+        "action": 0,
+        "path_length": 1,
+        "first_path_cell": [
+          27,
+          8
+        ]
+      },
+      "unreachable_path_ticks": 0,
+      "off_grid_agent_ticks": 0,
+      "unique_cells_visited": 190,
+      "max_cell_occupancy": 1,
+      "survival_rate": 0.8,
+      "employment_rate": 1.0,
+      "mean_wellbeing": 63.761615103918984,
+      "mean_health": 39.93999999999902,
+      "mean_hunger": 24.900000000000013,
+      "min_cash": 0.0
+    },
+    {
+      "seed": 6002,
+      "days": 60,
+      "duplicate_cell_ticks": 0,
+      "blocked_agent_ticks": 523,
+      "blocked_agent_tick_rate": 0.036319444444444446,
+      "max_consecutive_blocked_ticks": 26,
+      "max_blocked_context": {
+        "citizen": 9,
+        "name": "Zuri",
+        "position": [
+          27,
+          11
+        ],
+        "target": [
+          27,
+          10
+        ],
+        "action": 0,
+        "path_length": 1,
+        "first_path_cell": [
+          27,
+          10
+        ]
+      },
+      "unreachable_path_ticks": 0,
+      "off_grid_agent_ticks": 0,
+      "unique_cells_visited": 211,
+      "max_cell_occupancy": 1,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "mean_wellbeing": 71.01762452401763,
+      "mean_health": 56.41999999999878,
+      "mean_hunger": 16.250000000000004,
+      "min_cash": 12.0
+    },
+    {
+      "seed": 6003,
+      "days": 60,
+      "duplicate_cell_ticks": 0,
+      "blocked_agent_ticks": 564,
+      "blocked_agent_tick_rate": 0.03916666666666667,
+      "max_consecutive_blocked_ticks": 29,
+      "max_blocked_context": {
+        "citizen": 5,
+        "name": "Nora",
+        "position": [
+          27,
+          11
+        ],
+        "target": [
+          27,
+          10
+        ],
+        "action": 0,
+        "path_length": 1,
+        "first_path_cell": [
+          27,
+          10
+        ]
+      },
+      "unreachable_path_ticks": 0,
+      "off_grid_agent_ticks": 0,
+      "unique_cells_visited": 227,
+      "max_cell_occupancy": 1,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "mean_wellbeing": 68.91832280351295,
+      "mean_health": 52.68499999999874,
+      "mean_hunger": 19.2,
+      "min_cash": 10.0
+    }
+  ],
+  "seed_start": 6001,
+  "days": 60
+}

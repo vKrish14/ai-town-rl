@@ -1,0 +1,155 @@
+{
+  "mode": "Learned MAPPO",
+  "algorithm": "MAPPO",
+  "checkpoint": "models/mappo.pt",
+  "seed_start": 1001,
+  "days": 30,
+  "config": {
+    "simulation": {
+      "population": 10,
+      "ticks_per_day": 24,
+      "episode_days": 30,
+      "movement_steps_per_tick": 8
+    },
+    "economy": {
+      "starting_cash": 35,
+      "starting_food": 1,
+      "food_price": 5,
+      "starting_vacancies": 10,
+      "clinic_visit_cost": 10,
+      "shop_daily_restock": 8,
+      "hunger_drift_per_tick": 0.7
+    },
+    "reward": {
+      "wellbeing_delta": 0.05,
+      "starvation": 0.3,
+      "survival": 0.5,
+      "sustainable_work": 0.08,
+      "financial_stability": 0.15,
+      "employment_acquisition": 0.25
+    },
+    "training": {
+      "algorithm": "MAPPO",
+      "seed": 7,
+      "learning_rate": 0.0003,
+      "gamma": 0.99,
+      "gae_lambda": 0.95,
+      "clip": 0.2,
+      "entropy": 0.01,
+      "update_epochs": 4,
+      "cpu_threads": 1
+    }
+  },
+  "checkpoint_metadata": {
+    "seed": 23,
+    "episodes": 100,
+    "days": 30,
+    "algorithm": "MAPPO",
+    "config": {
+      "simulation": {
+        "population": 10,
+        "ticks_per_day": 24,
+        "episode_days": 30,
+        "movement_steps_per_tick": 8
+      },
+      "economy": {
+        "starting_cash": 35,
+        "starting_food": 1,
+        "food_price": 5,
+        "starting_vacancies": 10,
+        "clinic_visit_cost": 10,
+        "shop_daily_restock": 8,
+        "hunger_drift_per_tick": 0.7
+      },
+      "reward": {
+        "wellbeing_delta": 0.05,
+        "starvation": 0.3,
+        "survival": 0.5,
+        "sustainable_work": 0.08,
+        "financial_stability": 0.15,
+        "employment_acquisition": 0.25
+      },
+      "training": {
+        "algorithm": "MAPPO",
+        "seed": 23,
+        "learning_rate": 0.0003,
+        "gamma": 0.99,
+        "gae_lambda": 0.95,
+        "clip": 0.2,
+        "entropy": 0.01,
+        "update_epochs": 4,
+        "cpu_threads": 1
+      }
+    }
+  },
+  "deterministic": true,
+  "decision_mode": "deterministic_argmax",
+  "episodes": [
+    {
+      "seed": 1001,
+      "reward": -312.0454983333334,
+      "wellbeing": 49.30000000000001,
+      "survival_rate": 0.0,
+      "employment_rate": 0.3,
+      "avg_money": 41.0,
+      "hunger_incidents": 10,
+      "mean_health": 0.0,
+      "mean_stress": 0.0,
+      "mean_social_satisfaction": 95.80000000000007,
+      "wealth_gini": 0.10536585365853646
+    },
+    {
+      "seed": 1002,
+      "reward": -312.15711666666675,
+      "wellbeing": 48.61750000000002,
+      "survival_rate": 0.0,
+      "employment_rate": 0.2,
+      "avg_money": 38.6,
+      "hunger_incidents": 10,
+      "mean_health": 0.0,
+      "mean_stress": 0.0,
+      "mean_social_satisfaction": 91.70500000000013,
+      "wealth_gini": 0.07461139896373048
+    },
+    {
+      "seed": 1003,
+      "reward": -305.25867000000005,
+      "wellbeing": 48.22500000000003,
+      "survival_rate": 0.0,
+      "employment_rate": 0.3,
+      "avg_money": 42.8,
+      "hunger_incidents": 10,
+      "mean_health": 0.0,
+      "mean_stress": 2.0400000000000027,
+      "mean_social_satisfaction": 91.39000000000013,
+      "wealth_gini": 0.13037383177570083
+    },
+    {
+      "seed": 1004,
+      "reward": -309.0992983333334,
+      "wellbeing": 49.47500000000001,
+      "survival_rate": 0.0,
+      "employment_rate": 0.3,
+      "avg_money": 41.0,
+      "hunger_incidents": 10,
+      "mean_health": 0.0,
+      "mean_stress": 0.0,
+      "mean_social_satisfaction": 96.85000000000005,
+      "wealth_gini": 0.10536585365853646
+    },
+    {
+      "seed": 1005,
+      "reward": -310.121145,
+      "wellbeing": 49.119166666666686,
+      "survival_rate": 0.0,
+      "employment_rate": 0.3,
+      "avg_money": 42.2,
+      "hunger_incidents": 10,
+      "mean_health": 0.0,
+      "mean_stress": 0.0,
+      "mean_social_satisfaction": 94.71500000000009,
+      "wealth_gini": 0.11943127962085298
+    }
+  ],
+  "mean_reward": -309.73634566666675
+}

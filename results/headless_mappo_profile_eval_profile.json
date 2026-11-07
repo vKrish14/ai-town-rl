@@ -1,0 +1,14 @@
+{
+  "mode": "learned",
+  "checkpoint": "models\\mappo.pt",
+  "population": 10,
+  "episodes": 3,
+  "days_per_episode": 30,
+  "environment_steps": 2160,
+  "citizen_decisions": 21600,
+  "wall_seconds": 7.499979600019287,
+  "environment_steps_per_second": 288.0007833613901,
+  "citizen_decisions_per_second": 2880.007833613901,
+  "raw_evaluation": "results\\headless_mappo_profile_eval.json",
+  "mean_reward": 26.07064738434134
+}

@@ -1,0 +1,407 @@
+{
+  "algorithm": "MAPPO",
+  "component_zeroed": "financial_stability",
+  "training_seeds": [
+    23,
+    123,
+    223
+  ],
+  "training_seed_count": 3,
+  "days": 30,
+  "evaluation_seeds": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005
+  ],
+  "evaluation_episodes_per_training_seed": 5,
+  "evaluation_decision_mode": "stochastic_sample",
+  "aggregation": "Mean over held-out environments within each training seed, then mean and sample SD across training seeds.",
+  "aggregate": {
+    "full": {
+      "survival_rate": {
+        "mean_across_training_seeds": 1.0,
+        "sd_across_training_seeds": 0.0,
+        "per_training_seed": {
+          "23": 1.0,
+          "123": 1.0,
+          "223": 1.0
+        }
+      },
+      "employment_rate": {
+        "mean_across_training_seeds": 1.0,
+        "sd_across_training_seeds": 0.0,
+        "per_training_seed": {
+          "23": 1.0,
+          "123": 1.0,
+          "223": 1.0
+        }
+      },
+      "wellbeing": {
+        "mean_across_training_seeds": 87.27070716632262,
+        "sd_across_training_seeds": 3.503202605520517,
+        "per_training_seed": {
+          "23": 83.70214158021876,
+          "123": 87.40531325208246,
+          "223": 90.70466666666667
+        }
+      },
+      "mean_health": {
+        "mean_across_training_seeds": 97.77399999999996,
+        "sd_across_training_seeds": 2.4488840315540226,
+        "per_training_seed": {
+          "23": 94.9899999999999,
+          "123": 98.737,
+          "223": 99.595
+        }
+      },
+      "mean_stress": {
+        "mean_across_training_seeds": 6.500000000000011,
+        "sd_across_training_seeds": 6.04160011917376,
+        "per_training_seed": {
+          "23": 13.476000000000047,
+          "123": 2.9619999999999984,
+          "223": 3.061999999999986
+        }
+      },
+      "mean_social_satisfaction": {
+        "mean_across_training_seeds": 91.09557633126924,
+        "sd_across_training_seeds": 3.1283113076473565,
+        "per_training_seed": {
+          "23": 88.67884948131284,
+          "123": 89.9788795124948,
+          "223": 94.6290000000001
+        }
+      },
+      "avg_money": {
+        "mean_across_training_seeds": 39.300000000000004,
+        "sd_across_training_seeds": 3.2887079529809267,
+        "per_training_seed": {
+          "23": 43.04,
+          "123": 36.86,
+          "223": 38.0
+        }
+      },
+      "hunger_incidents": {
+        "mean_across_training_seeds": 0.0,
+        "sd_across_training_seeds": 0.0,
+        "per_training_seed": {
+          "23": 0.0,
+          "123": 0.0,
+          "223": 0.0
+        }
+      },
+      "wealth_gini": {
+        "mean_across_training_seeds": 0.11108459194767606,
+        "sd_across_training_seeds": 0.026223980229715286,
+        "per_training_seed": {
+          "23": 0.08996048696136336,
+          "123": 0.1404356380403823,
+          "223": 0.10285765084128248
+        }
+      }
+    },
+    "ablated": {
+      "survival_rate": {
+        "mean_across_training_seeds": 0.7333333333333334,
+        "sd_across_training_seeds": 0.4618802153517006,
+        "per_training_seed": {
+          "23": 1.0,
+          "123": 1.0,
+          "223": 0.2
+        }
+      },
+      "employment_rate": {
+        "mean_across_training_seeds": 1.0,
+        "sd_across_training_seeds": 0.0,
+        "per_training_seed": {
+          "23": 1.0,
+          "123": 1.0,
+          "223": 1.0
+        }
+      },
+      "wellbeing": {
+        "mean_across_training_seeds": 67.44023720805836,
+        "sd_across_training_seeds": 14.227284451893109,
+        "per_training_seed": {
+          "23": 82.86323545253707,
+          "123": 64.62914283830472,
+          "223": 54.828333333333305
+        }
+      },
+      "mean_health": {
+        "mean_across_training_seeds": 46.057666666666336,
+        "sd_across_training_seeds": 47.52137409980208,
+        "per_training_seed": {
+          "23": 96.63999999999994,
+          "123": 39.18799999999915,
+          "223": 2.344999999999908
+        }
+      },
+      "mean_stress": {
+        "mean_across_training_seeds": 11.886666666666803,
+        "sd_across_training_seeds": 11.528599278894959,
+        "per_training_seed": {
+          "23": 11.604000000000065,
+          "123": 23.554000000000347,
+          "223": 0.502
+        }
+      },
+      "mean_social_satisfaction": {
+        "mean_across_training_seeds": 86.94308991501738,
+        "sd_across_training_seeds": 10.069051181923282,
+        "per_training_seed": {
+          "23": 85.80941271522268,
+          "123": 77.48885702982943,
+          "223": 97.53100000000005
+        }
+      },
+      "avg_money": {
+        "mean_across_training_seeds": 23.44,
+        "sd_across_training_seeds": 20.011266826465537,
+        "per_training_seed": {
+          "23": 42.06,
+          "123": 25.98,
+          "223": 2.2800000000000002
+        }
+      },
+      "hunger_incidents": {
+        "mean_across_training_seeds": 2.0,
+        "sd_across_training_seeds": 3.4641016151377544,
+        "per_training_seed": {
+          "23": 0.0,
+          "123": 0.0,
+          "223": 6.0
+        }
+      },
+      "wealth_gini": {
+        "mean_across_training_seeds": 0.19408924853708034,
+        "sd_across_training_seeds": 0.13094526352052493,
+        "per_training_seed": {
+          "23": 0.09127973845896302,
+          "123": 0.14947673681342163,
+          "223": 0.3415112703388564
+        }
+      }
+    },
+    "delta_ablated_minus_full": {
+      "survival_rate": {
+        "mean_across_training_seeds": -0.26666666666666666,
+        "sd_across_training_seeds": 0.46188021535170065,
+        "per_training_seed": {
+          "23": 0.0,
+          "123": 0.0,
+          "223": -0.8
+        }
+      },
+      "employment_rate": {
+        "mean_across_training_seeds": 0.0,
+        "sd_across_training_seeds": 0.0,
+        "per_training_seed": {
+          "23": 0.0,
+          "123": 0.0,
+          "223": 0.0
+        }
+      },
+      "wellbeing": {
+        "mean_across_training_seeds": -19.83046995826427,
+        "sd_across_training_seeds": 17.70347959238647,
+        "per_training_seed": {
+          "23": -0.838906127681696,
+          "123": -22.77617041377775,
+          "223": -35.87633333333336
+        }
+      },
+      "mean_health": {
+        "mean_across_training_seeds": -51.71633333333363,
+        "sd_across_training_seeds": 49.913079451515976,
+        "per_training_seed": {
+          "23": 1.6500000000000483,
+          "123": -59.549000000000845,
+          "223": -97.25000000000009
+        }
+      },
+      "mean_stress": {
+        "mean_across_training_seeds": 5.386666666666794,
+        "sd_across_training_seeds": 13.172697420549003,
+        "per_training_seed": {
+          "23": -1.8719999999999821,
+          "123": 20.592000000000347,
+          "223": -2.5599999999999863
+        }
+      },
+      "mean_social_satisfaction": {
+        "mean_across_training_seeds": -4.152486416251861,
+        "sd_across_training_seeds": 7.775811940260879,
+        "per_training_seed": {
+          "23": -2.8694367660901605,
+          "123": -12.490022482665367,
+          "223": 2.901999999999944
+        }
+      },
+      "avg_money": {
+        "mean_across_training_seeds": -15.86,
+        "sd_across_training_seeds": 17.897407633509385,
+        "per_training_seed": {
+          "23": -0.9799999999999969,
+          "123": -10.879999999999999,
+          "223": -35.72
+        }
+      },
+      "hunger_incidents": {
+        "mean_across_training_seeds": 2.0,
+        "sd_across_training_seeds": 3.4641016151377544,
+        "per_training_seed": {
+          "23": 0.0,
+          "123": 0.0,
+          "223": 6.0
+        }
+      },
+      "wealth_gini": {
+        "mean_across_training_seeds": 0.08300465658940431,
+        "sd_across_training_seeds": 0.13485123830402107,
+        "per_training_seed": {
+          "23": 0.0013192514975996633,
+          "123": 0.009041098773039324,
+          "223": 0.23865361949757394
+        }
+      }
+    }
+  },
+  "per_training_seed": {
+    "23": {
+      "full_evaluation": "results\\ablations\\mappo_full.json",
+      "ablated_evaluation": "results\\ablations\\mappo_without_financial_stability.json",
+      "evaluation_seeds": [
+        1001,
+        1002,
+        1003,
+        1004,
+        1005
+      ],
+      "full": {
+        "survival_rate": 1.0,
+        "employment_rate": 1.0,
+        "wellbeing": 83.70214158021876,
+        "mean_health": 94.9899999999999,
+        "mean_stress": 13.476000000000047,
+        "mean_social_satisfaction": 88.67884948131284,
+        "avg_money": 43.04,
+        "hunger_incidents": 0.0,
+        "wealth_gini": 0.08996048696136336
+      },
+      "ablated": {
+        "survival_rate": 1.0,
+        "employment_rate": 1.0,
+        "wellbeing": 82.86323545253707,
+        "mean_health": 96.63999999999994,
+        "mean_stress": 11.604000000000065,
+        "mean_social_satisfaction": 85.80941271522268,
+        "avg_money": 42.06,
+        "hunger_incidents": 0.0,
+        "wealth_gini": 0.09127973845896302
+      },
+      "delta_ablated_minus_full": {
+        "survival_rate": 0.0,
+        "employment_rate": 0.0,
+        "wellbeing": -0.838906127681696,
+        "mean_health": 1.6500000000000483,
+        "mean_stress": -1.8719999999999821,
+        "mean_social_satisfaction": -2.8694367660901605,
+        "avg_money": -0.9799999999999969,
+        "hunger_incidents": 0.0,
+        "wealth_gini": 0.0013192514975996633
+      }
+    },
+    "123": {
+      "full_evaluation": "results\\ablations\\financial_stability_replicates\\seed_123\\full.json",
+      "ablated_evaluation": "results\\ablations\\financial_stability_replicates\\seed_123\\ablated.json",
+      "evaluation_seeds": [
+        1001,
+        1002,
+        1003,
+        1004,
+        1005
+      ],
+      "full": {
+        "survival_rate": 1.0,
+        "employment_rate": 1.0,
+        "wellbeing": 87.40531325208246,
+        "mean_health": 98.737,
+        "mean_stress": 2.9619999999999984,
+        "mean_social_satisfaction": 89.9788795124948,
+        "avg_money": 36.86,
+        "hunger_incidents": 0.0,
+        "wealth_gini": 0.1404356380403823
+      },
+      "ablated": {
+        "survival_rate": 1.0,
+        "employment_rate": 1.0,
+        "wellbeing": 64.62914283830472,
+        "mean_health": 39.18799999999915,
+        "mean_stress": 23.554000000000347,
+        "mean_social_satisfaction": 77.48885702982943,
+        "avg_money": 25.98,
+        "hunger_incidents": 0.0,
+        "wealth_gini": 0.14947673681342163
+      },
+      "delta_ablated_minus_full": {
+        "survival_rate": 0.0,
+        "employment_rate": 0.0,
+        "wellbeing": -22.77617041377775,
+        "mean_health": -59.549000000000845,
+        "mean_stress": 20.592000000000347,
+        "mean_social_satisfaction": -12.490022482665367,
+        "avg_money": -10.879999999999999,
+        "hunger_incidents": 0.0,
+        "wealth_gini": 0.009041098773039324
+      }
+    },
+    "223": {
+      "full_evaluation": "results\\ablations\\financial_stability_replicates\\seed_223\\full.json",
+      "ablated_evaluation": "results\\ablations\\financial_stability_replicates\\seed_223\\ablated.json",
+      "evaluation_seeds": [
+        1001,
+        1002,
+        1003,
+        1004,
+        1005
+      ],
+      "full": {
+        "survival_rate": 1.0,
+        "employment_rate": 1.0,
+        "wellbeing": 90.70466666666667,
+        "mean_health": 99.595,
+        "mean_stress": 3.061999999999986,
+        "mean_social_satisfaction": 94.6290000000001,
+        "avg_money": 38.0,
+        "hunger_incidents": 0.0,
+        "wealth_gini": 0.10285765084128248
+      },
+      "ablated": {
+        "survival_rate": 0.2,
+        "employment_rate": 1.0,
+        "wellbeing": 54.828333333333305,
+        "mean_health": 2.344999999999908,
+        "mean_stress": 0.502,
+        "mean_social_satisfaction": 97.53100000000005,
+        "avg_money": 2.2800000000000002,
+        "hunger_incidents": 6.0,
+        "wealth_gini": 0.3415112703388564
+      },
+      "delta_ablated_minus_full": {
+        "survival_rate": -0.8,
+        "employment_rate": 0.0,
+        "wellbeing": -35.87633333333336,
+        "mean_health": -97.25000000000009,
+        "mean_stress": -2.5599999999999863,
+        "mean_social_satisfaction": 2.901999999999944,
+        "avg_money": -35.72,
+        "hunger_incidents": 6.0,
+        "wealth_gini": 0.23865361949757394
+      }
+    }
+  },
+  "interpretation": "Only three training seeds are included. The sample is seed-sensitive and exploratory; it does not establish a stable causal effect, convergence, or generalization. Raw episode evaluations remain the source data."
+}

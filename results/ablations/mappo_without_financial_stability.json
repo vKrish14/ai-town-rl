@@ -1,0 +1,155 @@
+{
+  "mode": "Learned MAPPO",
+  "algorithm": "MAPPO",
+  "checkpoint": "models\\ablations\\mappo_without_financial_stability.pt",
+  "seed_start": 1001,
+  "days": 30,
+  "config": {
+    "simulation": {
+      "population": 10,
+      "ticks_per_day": 24,
+      "episode_days": 30,
+      "movement_steps_per_tick": 8
+    },
+    "economy": {
+      "starting_cash": 35,
+      "starting_food": 1,
+      "food_price": 5,
+      "starting_vacancies": 10,
+      "clinic_visit_cost": 10,
+      "shop_daily_restock": 8,
+      "hunger_drift_per_tick": 0.7
+    },
+    "reward": {
+      "wellbeing_delta": 0.05,
+      "starvation": 0.3,
+      "survival": 0.5,
+      "sustainable_work": 0.08,
+      "financial_stability": 0.0,
+      "employment_acquisition": 0.25
+    },
+    "training": {
+      "algorithm": "MAPPO",
+      "seed": 7,
+      "learning_rate": 0.0003,
+      "gamma": 0.99,
+      "gae_lambda": 0.95,
+      "clip": 0.2,
+      "entropy": 0.01,
+      "update_epochs": 4,
+      "cpu_threads": 1
+    }
+  },
+  "checkpoint_metadata": {
+    "seed": 23,
+    "episodes": 100,
+    "days": 30,
+    "algorithm": "MAPPO",
+    "config": {
+      "simulation": {
+        "population": 10,
+        "ticks_per_day": 24,
+        "episode_days": 30,
+        "movement_steps_per_tick": 8
+      },
+      "economy": {
+        "starting_cash": 35,
+        "starting_food": 1,
+        "food_price": 5,
+        "starting_vacancies": 10,
+        "clinic_visit_cost": 10,
+        "shop_daily_restock": 8,
+        "hunger_drift_per_tick": 0.7
+      },
+      "reward": {
+        "wellbeing_delta": 0.05,
+        "starvation": 0.3,
+        "survival": 0.5,
+        "sustainable_work": 0.08,
+        "financial_stability": 0.0,
+        "employment_acquisition": 0.25
+      },
+      "training": {
+        "algorithm": "MAPPO",
+        "seed": 23,
+        "learning_rate": 0.0003,
+        "gamma": 0.99,
+        "gae_lambda": 0.95,
+        "clip": 0.2,
+        "entropy": 0.01,
+        "update_epochs": 4,
+        "cpu_threads": 1
+      }
+    }
+  },
+  "deterministic": false,
+  "decision_mode": "stochastic_sample",
+  "episodes": [
+    {
+      "seed": 1001,
+      "reward": 30.487261666666665,
+      "wellbeing": 79.63416666666676,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "avg_money": 43.1,
+      "hunger_incidents": 0,
+      "mean_health": 95.20999999999995,
+      "mean_stress": 14.86000000000007,
+      "mean_social_satisfaction": 81.71500000000084,
+      "wealth_gini": 0.09767981438515072
+    },
+    {
+      "seed": 1002,
+      "reward": 28.32834166666667,
+      "wellbeing": 80.63416666666667,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "avg_money": 44.3,
+      "hunger_incidents": 0,
+      "mean_health": 95.68999999999991,
+      "mean_stress": 13.150000000000087,
+      "mean_social_satisfaction": 84.9450000000003,
+      "wealth_gini": 0.061173814898419776
+    },
+    {
+      "seed": 1003,
+      "reward": 29.841586157911983,
+      "wellbeing": 81.44865649157289,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "avg_money": 43.2,
+      "hunger_incidents": 0,
+      "mean_health": 97.53999999999996,
+      "mean_stress": 10.120000000000028,
+      "mean_social_satisfaction": 84.7119389494375,
+      "wealth_gini": 0.08935185185185168
+    },
+    {
+      "seed": 1004,
+      "reward": 29.993929371888953,
+      "wellbeing": 86.12752077111239,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "avg_money": 39.5,
+      "hunger_incidents": 0,
+      "mean_health": 97.03999999999994,
+      "mean_stress": 11.870000000000104,
+      "mean_social_satisfaction": 89.66512462667451,
+      "wealth_gini": 0.08481012658227849
+    },
+    {
+      "seed": 1005,
+      "reward": 32.149396666666675,
+      "wellbeing": 86.47166666666666,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "avg_money": 40.2,
+      "hunger_incidents": 0,
+      "mean_health": 97.71999999999994,
+      "mean_stress": 8.020000000000035,
+      "mean_social_satisfaction": 88.01000000000023,
+      "wealth_gini": 0.12338308457711444
+    }
+  ],
+  "mean_reward": 30.16010310596019
+}

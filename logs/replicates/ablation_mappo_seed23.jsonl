@@ -1,0 +1,410 @@
+{"episode": 1, "mean_reward": -219.90416333333332, "mean_wellbeing": 56.26166666666668, "actor_loss": -0.016604300161856596, "critic_loss": 0.21908304754611665, "entropy": 1.2801813330270548}
+{"episode": 2, "mean_reward": -212.4502166666667, "mean_wellbeing": 51.95833333333335, "actor_loss": -0.014852845099696938, "critic_loss": 0.17615097180931968, "entropy": 1.0770597932613002}
+{"episode": 3, "mean_reward": -206.26877333333337, "mean_wellbeing": 51.33166666666669, "actor_loss": -0.013927946969520598, "critic_loss": 0.13501159912717026, "entropy": 1.045629810311098}
+{"episode": 4, "mean_reward": -209.17055499999998, "mean_wellbeing": 53.597500000000025, "actor_loss": -0.014047996499534466, "critic_loss": 0.1479641061968508, "entropy": 0.96992003126482}
+{"episode": 5, "mean_reward": -221.52917499999998, "mean_wellbeing": 52.61, "actor_loss": -0.011647537323868775, "critic_loss": 0.13969867630342467, "entropy": 0.8281236463020333}
+{"episode": 6, "mean_reward": -220.45729666666665, "mean_wellbeing": 53.28916666666669, "actor_loss": -0.010907664029669445, "critic_loss": 0.15483549210877545, "entropy": 0.9308661429491718}
+{"episode": 7, "mean_reward": -212.9749256190697, "mean_wellbeing": 52.29792095193913, "actor_loss": -0.011725935855245761, "critic_loss": 0.12178809452900845, "entropy": 0.9497737533750787}
+{"episode": 8, "mean_reward": -223.87002666666666, "mean_wellbeing": 55.94833333333336, "actor_loss": -0.011197259295237275, "critic_loss": 0.13039297340190517, "entropy": 0.834051224576161}
+{"episode": 9, "mean_reward": -221.33867499999997, "mean_wellbeing": 56.74000000000001, "actor_loss": -0.011524226349588912, "critic_loss": 0.08489357686675755, "entropy": 1.0235650408848198}
+{"episode": 10, "mean_reward": -213.51447499999995, "mean_wellbeing": 54.431666666666686, "actor_loss": -0.014655372706876524, "critic_loss": 0.06353854816571801, "entropy": 1.0371705665525082}
+{"episode": 11, "mean_reward": -197.6912966666667, "mean_wellbeing": 54.31583333333335, "actor_loss": -0.011616010925592442, "critic_loss": 0.09898614777927905, "entropy": 1.0019874806161475}
+{"episode": 12, "mean_reward": -194.89486251048427, "mean_wellbeing": 60.469049790316674, "actor_loss": -0.012367427545863377, "critic_loss": 0.11040413432416663, "entropy": 1.0183598876526925}
+{"episode": 13, "mean_reward": -206.36466833333338, "mean_wellbeing": 55.81833333333334, "actor_loss": -0.0118213813830233, "critic_loss": 0.14236322968407014, "entropy": 0.8693416977086953}
+{"episode": 14, "mean_reward": -181.19364833333347, "mean_wellbeing": 59.87750000000001, "actor_loss": -0.01165394585649689, "critic_loss": 0.04095285339693053, "entropy": 0.9631655851824094}
+{"episode": 15, "mean_reward": -214.45971333333333, "mean_wellbeing": 56.542500000000004, "actor_loss": -0.012427581018825944, "critic_loss": 0.2564857966077011, "entropy": 1.0288415274261373}
+{"episode": 16, "mean_reward": -205.6905016666667, "mean_wellbeing": 58.544999999999995, "actor_loss": -0.007448106597227135, "critic_loss": 0.03781727773953328, "entropy": 0.6655256798968906}
+{"episode": 17, "mean_reward": -196.9164483333334, "mean_wellbeing": 58.27083333333335, "actor_loss": -0.014335827079840598, "critic_loss": 0.06395263270994203, "entropy": 1.1306251284822952}
+{"episode": 18, "mean_reward": -195.07308000000003, "mean_wellbeing": 57.073333333333345, "actor_loss": -0.012472350544922581, "critic_loss": 0.09835338381539403, "entropy": 0.9613578418451073}
+{"episode": 19, "mean_reward": -193.98000500000003, "mean_wellbeing": 59.66416666666669, "actor_loss": -0.012165952535692305, "critic_loss": 0.10883767520431924, "entropy": 1.0200934282182592}
+{"episode": 20, "mean_reward": -213.51307500000001, "mean_wellbeing": 62.93333333333332, "actor_loss": -0.013236311711453362, "critic_loss": 0.09387248490763976, "entropy": 1.1560164933974764}
+{"episode": 21, "mean_reward": -226.28937000000005, "mean_wellbeing": 54.908333333333346, "actor_loss": -0.00926276412586459, "critic_loss": 0.2909975895839455, "entropy": 0.743521671775168}
+{"episode": 22, "mean_reward": -215.73918333333336, "mean_wellbeing": 62.2375, "actor_loss": -0.011231467772720266, "critic_loss": 0.04207710829456296, "entropy": 0.9254799549822259}
+{"episode": 23, "mean_reward": -191.77916500000003, "mean_wellbeing": 61.685, "actor_loss": -0.011234926175227207, "critic_loss": 0.024024280035390262, "entropy": 0.9771977304357343}
+{"episode": 24, "mean_reward": -191.71513166666676, "mean_wellbeing": 55.13500000000001, "actor_loss": -0.00822143465078609, "critic_loss": 0.13727658723307923, "entropy": 0.6537179896129971}
+{"episode": 25, "mean_reward": -161.33170166666673, "mean_wellbeing": 61.647499999999994, "actor_loss": -0.010330645949579775, "critic_loss": 0.28187438661018305, "entropy": 0.8281106325113667}
+{"episode": 26, "mean_reward": -159.99385500000014, "mean_wellbeing": 60.01833333333335, "actor_loss": -0.009818154088411052, "critic_loss": 0.31768008934713043, "entropy": 0.8176691390376175}
+{"episode": 27, "mean_reward": -142.24536333333344, "mean_wellbeing": 57.52166666666669, "actor_loss": -0.012949167190333911, "critic_loss": 0.03437101260750695, "entropy": 0.9588674534342986}
+{"episode": 28, "mean_reward": -133.2263916666668, "mean_wellbeing": 62.93083333333336, "actor_loss": -0.011999810058870805, "critic_loss": 0.02297892770936004, "entropy": 0.9306974058262015}
+{"episode": 29, "mean_reward": -133.1047433333334, "mean_wellbeing": 62.635000000000005, "actor_loss": -0.013610421349212067, "critic_loss": 0.09336071468032567, "entropy": 0.9891334927715032}
+{"episode": 30, "mean_reward": -106.94260492448362, "mean_wellbeing": 69.21113484366734, "actor_loss": -0.01125500025742778, "critic_loss": 0.06100005808129775, "entropy": 0.8206301251080184}
+{"episode": 31, "mean_reward": -130.57276333333348, "mean_wellbeing": 62.155000000000015, "actor_loss": -0.010288938867604047, "critic_loss": 0.0582638040053106, "entropy": 0.9282876867636115}
+{"episode": 32, "mean_reward": -93.77184166666677, "mean_wellbeing": 70.47500000000004, "actor_loss": -0.012482398860280164, "critic_loss": 0.08307669964511838, "entropy": 0.8163192386912034}
+{"episode": 33, "mean_reward": -24.63718833333343, "mean_wellbeing": 80.1616666666667, "actor_loss": -0.01032279181578485, "critic_loss": 0.09070841928498935, "entropy": 0.8547578372259056}
+{"episode": 34, "mean_reward": -78.96573000000016, "mean_wellbeing": 68.32833333333338, "actor_loss": -0.008715452084449671, "critic_loss": 0.06420927079377976, "entropy": 0.8048777349491035}
+{"episode": 35, "mean_reward": -31.01096333333344, "mean_wellbeing": 73.84416666666668, "actor_loss": -0.010530388667825115, "critic_loss": 0.061748043625755644, "entropy": 0.8651176375889145}
+{"episode": 36, "mean_reward": -21.284664635631074, "mean_wellbeing": 74.14030728738138, "actor_loss": -0.011317484484639316, "critic_loss": 0.06494774596881023, "entropy": 0.8332148496292334}
+{"episode": 37, "mean_reward": -24.64695037445598, "mean_wellbeing": 78.81485917754864, "actor_loss": -0.010292130388500811, "critic_loss": 0.0690318905146776, "entropy": 0.7087349683969422}
+{"episode": 38, "mean_reward": -37.279515620881554, "mean_wellbeing": 74.01688758237043, "actor_loss": -0.008665884388569512, "critic_loss": 0.041645067455494296, "entropy": 0.6843709182818379}
+{"episode": 39, "mean_reward": -4.676240830847492, "mean_wellbeing": 74.96945004971784, "actor_loss": -0.007679929675542609, "critic_loss": 0.022412660902580327, "entropy": 0.7076603253330804}
+{"episode": 40, "mean_reward": 15.752204205319169, "mean_wellbeing": 73.57901743971843, "actor_loss": -0.009218538989749761, "critic_loss": 0.005815022814590319, "entropy": 0.6807166921485842}
+{"episode": 41, "mean_reward": -18.893511666666775, "mean_wellbeing": 67.74999999999997, "actor_loss": -0.008715778278120983, "critic_loss": 0.0340569636463064, "entropy": 0.6173219099904583}
+{"episode": 42, "mean_reward": 9.261125661763403, "mean_wellbeing": 66.83417990193536, "actor_loss": -0.008334676812369936, "critic_loss": 0.015966388240324713, "entropy": 0.6610181809658497}
+{"episode": 43, "mean_reward": 23.164948333333335, "mean_wellbeing": 68.13749999999996, "actor_loss": -0.009837025548825947, "critic_loss": 0.005737235093802477, "entropy": 0.5947519108916806}
+{"episode": 44, "mean_reward": -40.39963833333334, "mean_wellbeing": 58.79000000000002, "actor_loss": -0.0084467922704113, "critic_loss": 0.044467632749439344, "entropy": 0.588998490334612}
+{"episode": 45, "mean_reward": 6.7225790341762615, "mean_wellbeing": 51.778214016858726, "actor_loss": -0.0026100562252846043, "critic_loss": 0.015833044210366444, "entropy": 0.6054052763939959}
+{"episode": 46, "mean_reward": 13.604230764902747, "mean_wellbeing": 61.9719486313882, "actor_loss": -0.008312229324643195, "critic_loss": 0.00155446902576801, "entropy": 0.5532499474629892}
+{"episode": 47, "mean_reward": 14.847379305005017, "mean_wellbeing": 60.147319433433566, "actor_loss": -0.00916471832588447, "critic_loss": 0.0014747164121507543, "entropy": 0.5115095174549955}
+{"episode": 48, "mean_reward": 12.915786702271495, "mean_wellbeing": 58.86586737876363, "actor_loss": -0.009746933404347999, "critic_loss": 0.0011107176542282104, "entropy": 0.5071498871640822}
+{"episode": 49, "mean_reward": 15.291806196481705, "mean_wellbeing": 69.42665726296678, "actor_loss": -0.008141287163608766, "critic_loss": 0.0009839154648042358, "entropy": 0.4931537403469592}
+{"episode": 50, "mean_reward": 17.317870088013525, "mean_wellbeing": 69.10313509360341, "actor_loss": -0.00796526454263408, "critic_loss": 0.0008692577712040032, "entropy": 0.48738914714977805}
+{"episode": 51, "mean_reward": 17.34823585801428, "mean_wellbeing": 74.68525049361808, "actor_loss": -0.009086667248398165, "critic_loss": 0.0010875426232814789, "entropy": 0.5040615305172659}
+{"episode": 52, "mean_reward": 14.65261692511011, "mean_wellbeing": 76.59087183553541, "actor_loss": -0.008339405057754004, "critic_loss": 0.0009253868684831974, "entropy": 0.4780764230320939}
+{"episode": 53, "mean_reward": 19.499695767376295, "mean_wellbeing": 79.77884868085869, "actor_loss": -0.007108433314792779, "critic_loss": 0.0009296283752253626, "entropy": 0.4645020009010239}
+{"episode": 54, "mean_reward": 19.347222516671692, "mean_wellbeing": 89.77298366676627, "actor_loss": -0.008511806799580994, "critic_loss": 0.0008720227113339753, "entropy": 0.4913901686668396}
+{"episode": 55, "mean_reward": 20.37952057387708, "mean_wellbeing": 82.15614481087441, "actor_loss": -0.008629853345775169, "critic_loss": 0.0008407394212167875, "entropy": 0.49118754419341554}
+{"episode": 56, "mean_reward": 23.040868409811402, "mean_wellbeing": 85.60390152956066, "actor_loss": -0.00804894266854065, "critic_loss": 0.0010857074233019248, "entropy": 0.44322088828920264}
+{"episode": 57, "mean_reward": 22.882047153691392, "mean_wellbeing": 87.51707640716049, "actor_loss": -0.005155917864387641, "critic_loss": 0.0009620513404365134, "entropy": 0.40650183015165076}
+{"episode": 58, "mean_reward": 24.88127666666669, "mean_wellbeing": 79.85166666666667, "actor_loss": -0.006478516597185383, "critic_loss": 0.0010587612282385867, "entropy": 0.3677507945855634}
+{"episode": 59, "mean_reward": 23.609523823503917, "mean_wellbeing": 89.95220980341105, "actor_loss": -0.008328382353879412, "critic_loss": 0.0009610564077058725, "entropy": 0.43219511451578774}
+{"episode": 60, "mean_reward": 27.294929474441155, "mean_wellbeing": 83.87632282215598, "actor_loss": -0.004017144425121029, "critic_loss": 0.001059975194851909, "entropy": 0.32469465194550234}
+{"episode": 61, "mean_reward": 26.66708947404557, "mean_wellbeing": 86.23472281424472, "actor_loss": -0.004382010449375133, "critic_loss": 0.001257072260553858, "entropy": 0.34465167051659223}
+{"episode": 62, "mean_reward": 28.592174999999997, "mean_wellbeing": 87.12083333333335, "actor_loss": -0.004331327216551367, "critic_loss": 0.0011266820396469758, "entropy": 0.31838232413989254}
+{"episode": 63, "mean_reward": 25.97027907047317, "mean_wellbeing": 92.26491474279635, "actor_loss": -0.0035112376079639105, "critic_loss": 0.001244340223812424, "entropy": 0.3271618837210457}
+{"episode": 64, "mean_reward": 23.835617266875815, "mean_wellbeing": 84.76047867084932, "actor_loss": -0.0036605878226228256, "critic_loss": 0.0010785712506127568, "entropy": 0.35616678329168167}
+{"episode": 65, "mean_reward": 26.133985584405753, "mean_wellbeing": 89.04344502144811, "actor_loss": -0.003721662040849307, "critic_loss": 0.0011496236630245647, "entropy": 0.31930884428783857}
+{"episode": 66, "mean_reward": 28.26008333333333, "mean_wellbeing": 89.725, "actor_loss": -0.004886546027970261, "critic_loss": 0.0012478108427165884, "entropy": 0.3035703059780387}
+{"episode": 67, "mean_reward": 27.62958666666669, "mean_wellbeing": 80.5366666666667, "actor_loss": -0.002329027140358529, "critic_loss": 0.0011665059039286808, "entropy": 0.31275647792932204}
+{"episode": 68, "mean_reward": 24.985738333333337, "mean_wellbeing": 85.9825, "actor_loss": -0.005713535658191, "critic_loss": 0.0011399603918590376, "entropy": 0.35618716072851575}
+{"episode": 69, "mean_reward": 27.16977000000001, "mean_wellbeing": 88.39833333333334, "actor_loss": -0.0028441189870699844, "critic_loss": 0.001008561490911298, "entropy": 0.32910958413792923}
+{"episode": 70, "mean_reward": 26.331963333333334, "mean_wellbeing": 91.22500000000001, "actor_loss": -0.0027112648147570415, "critic_loss": 0.0010337881183466026, "entropy": 0.370938758439986}
+{"episode": 71, "mean_reward": 25.558365000000023, "mean_wellbeing": 91.74583333333335, "actor_loss": -0.004151081642140099, "critic_loss": 0.0011610550294935177, "entropy": 0.38939088497277907}
+{"episode": 72, "mean_reward": 27.812101666666678, "mean_wellbeing": 86.96416666666669, "actor_loss": -0.0032042578574624407, "critic_loss": 0.0008649658411741257, "entropy": 0.3469261040466022}
+{"episode": 73, "mean_reward": 26.83202932787584, "mean_wellbeing": 89.11951989084972, "actor_loss": -0.002627305577270093, "critic_loss": 0.0009838556458728503, "entropy": 0.3491006672250486}
+{"episode": 74, "mean_reward": 28.00438668113647, "mean_wellbeing": 87.36346695606258, "actor_loss": -0.002721690117954318, "critic_loss": 0.0009392397890312481, "entropy": 0.34878624016336635}
+{"episode": 75, "mean_reward": 29.400025590111635, "mean_wellbeing": 87.43984513556622, "actor_loss": -0.0025469666420053524, "critic_loss": 0.0007770882869979976, "entropy": 0.33402651132999267}
+{"episode": 76, "mean_reward": 24.723423333333336, "mean_wellbeing": 86.27500000000003, "actor_loss": -0.0030874566183285374, "critic_loss": 0.001410979052296782, "entropy": 0.3251532420713817}
+{"episode": 77, "mean_reward": 27.873035000000016, "mean_wellbeing": 83.12083333333338, "actor_loss": -0.002056451822915403, "critic_loss": 0.0009126360899051733, "entropy": 0.3164280364207462}
+{"episode": 78, "mean_reward": 31.173674999999992, "mean_wellbeing": 90.28083333333333, "actor_loss": -0.0012217513641004608, "critic_loss": 0.0008999261906189201, "entropy": 0.2927942979520401}
+{"episode": 79, "mean_reward": 28.878726666666676, "mean_wellbeing": 88.49666666666666, "actor_loss": -0.0017539372263822408, "critic_loss": 0.000954745469235741, "entropy": 0.3094325565395102}
+{"episode": 80, "mean_reward": 29.60629666666667, "mean_wellbeing": 90.64166666666668, "actor_loss": -0.0018768573490968716, "critic_loss": 0.0008219262107019931, "entropy": 0.3280173010332922}
+{"episode": 81, "mean_reward": 30.472738333333343, "mean_wellbeing": 85.0625, "actor_loss": -0.0004793363061848929, "critic_loss": 0.0008116121181344564, "entropy": 0.30075821254105695}
+{"episode": 82, "mean_reward": 31.39346334045204, "mean_wellbeing": 86.47220014237412, "actor_loss": -0.0021411182469094946, "critic_loss": 0.000765382402897936, "entropy": 0.3252673617242712}
+{"episode": 83, "mean_reward": 31.318762082496086, "mean_wellbeing": 88.67457498325504, "actor_loss": -0.0007130365506581039, "critic_loss": 0.0008936999777777005, "entropy": 0.32592346670880784}
+{"episode": 84, "mean_reward": 32.281446088902705, "mean_wellbeing": 88.88385511138713, "actor_loss": -0.0010459871444463795, "critic_loss": 0.0009163209130014994, "entropy": 0.29444405380471617}
+{"episode": 85, "mean_reward": 31.297243333333324, "mean_wellbeing": 88.755, "actor_loss": -0.0031504744743161826, "critic_loss": 0.0007974193390228052, "entropy": 0.2996362991037622}
+{"episode": 86, "mean_reward": 30.169635000000007, "mean_wellbeing": 87.06083333333335, "actor_loss": -0.001098332134903763, "critic_loss": 0.0007139247866858423, "entropy": 0.31829113526418146}
+{"episode": 87, "mean_reward": 33.01406499999999, "mean_wellbeing": 84.95583333333337, "actor_loss": -0.0010312000872666198, "critic_loss": 0.0006301241012009899, "entropy": 0.2874553622925176}
+{"episode": 88, "mean_reward": 33.92850666666665, "mean_wellbeing": 87.01666666666667, "actor_loss": -0.003274224598611812, "critic_loss": 0.0005510272870285321, "entropy": 0.26375644657332287}
+{"episode": 89, "mean_reward": 33.69449443117232, "mean_wellbeing": 81.71402195677977, "actor_loss": -0.0020747573997833627, "critic_loss": 0.000737480637905872, "entropy": 0.2436077862450507}
+{"episode": 90, "mean_reward": 31.060651113940548, "mean_wellbeing": 84.82115561214414, "actor_loss": -0.002011311215253761, "critic_loss": 0.0007738407569385208, "entropy": 0.30086534496693484}
+{"episode": 91, "mean_reward": 30.845800000000004, "mean_wellbeing": 82.93333333333335, "actor_loss": -0.0018666605774181344, "critic_loss": 0.0007756669074296951, "entropy": 0.3027410476213008}
+{"episode": 92, "mean_reward": 29.43769833333335, "mean_wellbeing": 88.25250000000001, "actor_loss": -0.0020440304198557826, "critic_loss": 0.0006000408820346394, "entropy": 0.31931834170116785}
+{"episode": 93, "mean_reward": 31.936268333333352, "mean_wellbeing": 84.8175000000001, "actor_loss": -0.005121423265344537, "critic_loss": 0.0008125937815788573, "entropy": 0.2920227872323146}
+{"episode": 94, "mean_reward": 32.31038333333332, "mean_wellbeing": 88.64499999999998, "actor_loss": 0.00013177959810925928, "critic_loss": 0.0006951139498073442, "entropy": 0.28322500578927257}
+{"episode": 95, "mean_reward": 31.430995097154085, "mean_wellbeing": 88.05483527641567, "actor_loss": -0.0029373338417174807, "critic_loss": 0.0010685630439393288, "entropy": 0.2384711922500777}
+{"episode": 96, "mean_reward": 31.154451666666677, "mean_wellbeing": 84.1591666666667, "actor_loss": 0.0012275632785064524, "critic_loss": 0.0007454908527104201, "entropy": 0.27074642870080684}
+{"episode": 97, "mean_reward": 31.865342995982235, "mean_wellbeing": 85.89259325297841, "actor_loss": -0.002719939543414383, "critic_loss": 0.0008352810137831004, "entropy": 0.23670431277591042}
+{"episode": 98, "mean_reward": 32.25412833333333, "mean_wellbeing": 86.79749999999999, "actor_loss": -0.0011888175720629174, "critic_loss": 0.0006820575820397487, "entropy": 0.2614045830163281}
+{"episode": 99, "mean_reward": 33.09307112521723, "mean_wellbeing": 84.35315583767803, "actor_loss": -0.0011652893581493569, "critic_loss": 0.0007103010187898062, "entropy": 0.22413427857434856}
+{"episode": 100, "mean_reward": 32.22174890592616, "mean_wellbeing": 88.95191145185643, "actor_loss": 0.0006305619696179916, "critic_loss": 0.0007973459211334718, "entropy": 0.24468286918987214}
+{
+  "mode": "Learned MAPPO",
+  "algorithm": "MAPPO",
+  "checkpoint": "models\\mappo.pt",
+  "seed_start": 1001,
+  "days": 30,
+  "config": {
+    "simulation": {
+      "population": 10,
+      "ticks_per_day": 24,
+      "episode_days": 30,
+      "movement_steps_per_tick": 8
+    },
+    "economy": {
+      "starting_cash": 35,
+      "starting_food": 1,
+      "food_price": 5,
+      "starting_vacancies": 10,
+      "clinic_visit_cost": 10,
+      "shop_daily_restock": 8,
+      "hunger_drift_per_tick": 0.7
+    },
+    "reward": {
+      "wellbeing_delta": 0.05,
+      "starvation": 0.3,
+      "survival": 0.5,
+      "sustainable_work": 0.08,
+      "financial_stability": 0.15,
+      "employment_acquisition": 0.25
+    },
+    "training": {
+      "algorithm": "MAPPO",
+      "seed": 7,
+      "learning_rate": 0.0003,
+      "gamma": 0.99,
+      "gae_lambda": 0.95,
+      "clip": 0.2,
+      "entropy": 0.01,
+      "update_epochs": 4,
+      "cpu_threads": 1
+    }
+  },
+  "checkpoint_metadata": {
+    "seed": 23,
+    "episodes": 100,
+    "days": 30,
+    "algorithm": "MAPPO",
+    "config": {
+      "simulation": {
+        "population": 10,
+        "ticks_per_day": 24,
+        "episode_days": 30,
+        "movement_steps_per_tick": 8
+      },
+      "economy": {
+        "starting_cash": 35,
+        "starting_food": 1,
+        "food_price": 5,
+        "starting_vacancies": 10,
+        "clinic_visit_cost": 10,
+        "shop_daily_restock": 8,
+        "hunger_drift_per_tick": 0.7
+      },
+      "reward": {
+        "wellbeing_delta": 0.05,
+        "starvation": 0.3,
+        "survival": 0.5,
+        "sustainable_work": 0.08,
+        "financial_stability": 0.15,
+        "employment_acquisition": 0.25
+      },
+      "training": {
+        "algorithm": "MAPPO",
+        "seed": 23,
+        "learning_rate": 0.0003,
+        "gamma": 0.99,
+        "gae_lambda": 0.95,
+        "clip": 0.2,
+        "entropy": 0.01,
+        "update_epochs": 4,
+        "cpu_threads": 1
+      }
+    }
+  },
+  "deterministic": false,
+  "decision_mode": "stochastic_sample",
+  "episodes": [
+    {
+      "seed": 1001,
+      "reward": 20.119945000000037,
+      "wellbeing": 88.79583333333338,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "avg_money": 44.4,
+      "hunger_incidents": 0,
+      "mean_health": 99.19,
+      "mean_stress": 11.909999999999958,
+      "mean_social_satisfaction": 91.33500000000024,
+      "wealth_gini": 0.09864864864864864
+    },
+    {
+      "seed": 1002,
+      "reward": 21.71143333333336,
+      "wellbeing": 84.26499999999999,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "avg_money": 43.1,
+      "hunger_incidents": 0,
+      "mean_health": 94.15499999999983,
+      "mean_stress": 11.559999999999985,
+      "mean_social_satisfaction": 89.39500000000021,
+      "wealth_gini": 0.07911832946635733
+    },
+    {
+      "seed": 1003,
+      "reward": 21.947761456759803,
+      "wellbeing": 82.22636246852886,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "avg_money": 45.1,
+      "hunger_incidents": 0,
+      "mean_health": 94.01499999999986,
+      "mean_stress": 14.47000000000017,
+      "mean_social_satisfaction": 89.30317481117353,
+      "wealth_gini": 0.07427937915742788
+    },
+    {
+      "seed": 1004,
+      "reward": 25.20598833333336,
+      "wellbeing": 82.7225,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "avg_money": 40.5,
+      "hunger_incidents": 0,
+      "mean_health": 98.21499999999996,
+      "mean_stress": 15.24000000000016,
+      "mean_social_satisfaction": 87.12000000000025,
+      "wealth_gini": 0.10345679012345665
+    },
+    {
+      "seed": 1005,
+      "reward": 23.431513938294945,
+      "wellbeing": 80.50101209923163,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "avg_money": 42.1,
+      "hunger_incidents": 0,
+      "mean_health": 89.3749999999998,
+      "mean_stress": 14.19999999999997,
+      "mean_social_satisfaction": 86.24107259538998,
+      "wealth_gini": 0.0942992874109263
+    }
+  ],
+  "mean_reward": 22.4833284123443
+}
+{
+  "mode": "Learned MAPPO",
+  "algorithm": "MAPPO",
+  "checkpoint": "models\\ablations\\mappo_without_financial_stability.pt",
+  "seed_start": 1001,
+  "days": 30,
+  "config": {
+    "simulation": {
+      "population": 10,
+      "ticks_per_day": 24,
+      "episode_days": 30,
+      "movement_steps_per_tick": 8
+    },
+    "economy": {
+      "starting_cash": 35,
+      "starting_food": 1,
+      "food_price": 5,
+      "starting_vacancies": 10,
+      "clinic_visit_cost": 10,
+      "shop_daily_restock": 8,
+      "hunger_drift_per_tick": 0.7
+    },
+    "reward": {
+      "wellbeing_delta": 0.05,
+      "starvation": 0.3,
+      "survival": 0.5,
+      "sustainable_work": 0.08,
+      "financial_stability": 0.0,
+      "employment_acquisition": 0.25
+    },
+    "training": {
+      "algorithm": "MAPPO",
+      "seed": 7,
+      "learning_rate": 0.0003,
+      "gamma": 0.99,
+      "gae_lambda": 0.95,
+      "clip": 0.2,
+      "entropy": 0.01,
+      "update_epochs": 4,
+      "cpu_threads": 1
+    }
+  },
+  "checkpoint_metadata": {
+    "seed": 23,
+    "episodes": 100,
+    "days": 30,
+    "algorithm": "MAPPO",
+    "config": {
+      "simulation": {
+        "population": 10,
+        "ticks_per_day": 24,
+        "episode_days": 30,
+        "movement_steps_per_tick": 8
+      },
+      "economy": {
+        "starting_cash": 35,
+        "starting_food": 1,
+        "food_price": 5,
+        "starting_vacancies": 10,
+        "clinic_visit_cost": 10,
+        "shop_daily_restock": 8,
+        "hunger_drift_per_tick": 0.7
+      },
+      "reward": {
+        "wellbeing_delta": 0.05,
+        "starvation": 0.3,
+        "survival": 0.5,
+        "sustainable_work": 0.08,
+        "financial_stability": 0.0,
+        "employment_acquisition": 0.25
+      },
+      "training": {
+        "algorithm": "MAPPO",
+        "seed": 23,
+        "learning_rate": 0.0003,
+        "gamma": 0.99,
+        "gae_lambda": 0.95,
+        "clip": 0.2,
+        "entropy": 0.01,
+        "update_epochs": 4,
+        "cpu_threads": 1
+      }
+    }
+  },
+  "deterministic": false,
+  "decision_mode": "stochastic_sample",
+  "episodes": [
+    {
+      "seed": 1001,
+      "reward": 30.487261666666665,
+      "wellbeing": 79.63416666666676,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "avg_money": 43.1,
+      "hunger_incidents": 0,
+      "mean_health": 95.20999999999995,
+      "mean_stress": 14.86000000000007,
+      "mean_social_satisfaction": 81.71500000000084,
+      "wealth_gini": 0.09767981438515072
+    },
+    {
+      "seed": 1002,
+      "reward": 28.32834166666667,
+      "wellbeing": 80.63416666666667,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "avg_money": 44.3,
+      "hunger_incidents": 0,
+      "mean_health": 95.68999999999991,
+      "mean_stress": 13.150000000000087,
+      "mean_social_satisfaction": 84.9450000000003,
+      "wealth_gini": 0.061173814898419776
+    },
+    {
+      "seed": 1003,
+      "reward": 29.841586157911983,
+      "wellbeing": 81.44865649157289,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "avg_money": 43.2,
+      "hunger_incidents": 0,
+      "mean_health": 97.53999999999996,
+      "mean_stress": 10.120000000000028,
+      "mean_social_satisfaction": 84.7119389494375,
+      "wealth_gini": 0.08935185185185168
+    },
+    {
+      "seed": 1004,
+      "reward": 29.993929371888953,
+      "wellbeing": 86.12752077111239,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "avg_money": 39.5,
+      "hunger_incidents": 0,
+      "mean_health": 97.03999999999994,
+      "mean_stress": 11.870000000000104,
+      "mean_social_satisfaction": 89.66512462667451,
+      "wealth_gini": 0.08481012658227849
+    },
+    {
+      "seed": 1005,
+      "reward": 32.149396666666675,
+      "wellbeing": 86.47166666666666,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "avg_money": 40.2,
+      "hunger_incidents": 0,
+      "mean_health": 97.71999999999994,
+      "mean_stress": 8.020000000000035,
+      "mean_social_satisfaction": 88.01000000000023,
+      "wealth_gini": 0.12338308457711444
+    }
+  ],
+  "mean_reward": 30.16010310596019
+}

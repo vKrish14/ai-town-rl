@@ -1,0 +1,38 @@
+simulation:
+  population: 10
+  ticks_per_day: 24
+  episode_days: 30
+  movement_steps_per_tick: 8
+economy:
+  starting_cash: 35
+  starting_food: 1
+  food_price: 5
+  starting_vacancies: 10
+  clinic_visit_cost: 10
+  shop_daily_restock: 8
+  hunger_drift_per_tick: 0.7
+reward:
+  wellbeing_delta: 0.05
+  starvation: 0.3
+  survival: 0.5
+  sustainable_work: 0.08
+  financial_stability: 0.0
+  employment_acquisition: 0.25
+training:
+  algorithm: MAPPO
+  seed: 7
+  learning_rate: 0.0003
+  gamma: 0.99
+  gae_lambda: 0.95
+  clip: 0.2
+  entropy: 0.01
+  update_epochs: 4
+  cpu_threads: 1
+visualization:
+  wellbeing_weights:
+    health: 1.0
+    energy: 1.0
+    hunger: 1.0
+    happiness: 1.0
+    stress: 1.0
+    social: 1.0

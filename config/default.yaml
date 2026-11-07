@@ -1,0 +1,98 @@
+town:
+  name: Willowbrook
+  description: A small, walkable community shaped by its residents' daily choices.
+  founding_day: 1
+  establishments:
+    home_01: Chen Residence
+    home_02: Alvarez Residence
+    home_03: Park Residence
+    home_04: Patel Residence
+    home_05: Hart Residence
+    home_06: Williams Residence
+    home_07: Mendes Residence
+    home_08: Okafor Residence
+    home_09: Rivera Residence
+    home_10: Bennett Residence
+    home_11: Mehta Residence
+    home_12: Nair Residence
+    home_13: Moreau Residence
+    home_14: Johnson Residence
+    home_15: Brooks Residence
+    home_16: Shah Residence
+    home_17: Okeke Residence
+    office_01: CedarWorks
+    office_02: Northstar Offices
+    office_03: Eastbank Studios
+    office_04: Foundry House
+    grocery_01: GreenBasket Market
+    grocery_02: Corner Pantry
+    grocery_03: Market on Juniper
+    restaurant_01: The Daily Plate
+    restaurant_02: Juniper Noodles
+    clinic_01: TownCare Clinic
+    clinic_02: Eastbank Health
+    park_01: Willow Park
+    park_02: Riverside Gardens
+    park_03: Clover Commons
+    town_centre_01: Maple Town Hall
+    police_station_01: Willowbrook Safety Office
+simulation:
+  population: 17
+  ticks_per_day: 24
+  episode_days: 30
+  movement_steps_per_tick: 8
+economy:
+  starting_cash: 35
+  starting_food: 1
+  food_price: 5
+  starting_vacancies: 16
+  clinic_visit_cost: 10
+  shop_daily_restock: 8
+  shop_count: 3
+  hunger_drift_per_tick: 0.7
+reward:
+  wellbeing_delta: 0.05
+  starvation: 0.30
+  survival: 0.50
+  sustainable_work: 0.08
+  financial_stability: 0.15
+  employment_acquisition: 0.25
+training:
+  algorithm: MAPPO
+  seed: 7
+  learning_rate: 0.0003
+  gamma: 0.99
+  gae_lambda: 0.95
+  clip: 0.2
+  entropy: 0.01
+  update_epochs: 4
+  cpu_threads: 1
+visualization:
+  demo_seed: 10
+  wellbeing_weights:
+    health: 1.0
+    energy: 1.0
+    hunger: 1.0
+    happiness: 1.0
+    stress: 1.0
+    social: 1.0
+town_events:
+  # One simulation day advances this campaign calendar by one real calendar date.
+  calendar_start: "2026-01-01"
+  observances:
+    - {date: "01-01", name: "New Year's Day"}
+    - {date: "02-14", name: "Valentine's Day"}
+    - {date: "03-08", name: "International Women's Day"}
+    - {date: "04-22", name: "Earth Day"}
+    - {date: "10-31", name: "Halloween"}
+    - {date: "12-25", name: "Christmas Day"}
+  crime:
+    enabled: true
+    # Ambient, non-consequential reports per 1,000 resident-days.
+    rate_per_1000_resident_days: 12.0
+    incident_weights:
+      assault_report: 0.30
+      burglary_report: 0.28
+      robbery_report: 0.18
+      theft_report: 0.14
+      vandalism_report: 0.10

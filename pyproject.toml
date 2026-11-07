@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-town-rl"
+version = "0.1.0"
+description = "A headless multi-agent life simulation and cozy town viewer"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "torch>=2.2", "gymnasium>=0.29", "pettingzoo>=1.24", "pygame-ce>=2.5", "PyYAML>=6", "matplotlib>=3.9"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+include = ["ai_town*"]

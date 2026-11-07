@@ -1,0 +1,149 @@
+{
+  "mode": "Learned MAPPO",
+  "algorithm": "MAPPO",
+  "checkpoint": "models/replicates/mappo_seed223.pt",
+  "seed_start": 3004,
+  "days": 60,
+  "config": {
+    "simulation": {
+      "population": 10,
+      "ticks_per_day": 24,
+      "episode_days": 60,
+      "movement_steps_per_tick": 8
+    },
+    "economy": {
+      "starting_cash": 35,
+      "starting_food": 1,
+      "food_price": 5,
+      "starting_vacancies": 10,
+      "clinic_visit_cost": 10,
+      "shop_daily_restock": 8,
+      "hunger_drift_per_tick": 0.7
+    },
+    "reward": {
+      "wellbeing_delta": 0.05,
+      "starvation": 0.3,
+      "survival": 0.5,
+      "sustainable_work": 0.08,
+      "financial_stability": 0.15,
+      "employment_acquisition": 0.25
+    },
+    "training": {
+      "algorithm": "MAPPO",
+      "seed": 7,
+      "learning_rate": 0.0003,
+      "gamma": 0.99,
+      "gae_lambda": 0.95,
+      "clip": 0.2,
+      "entropy": 0.01,
+      "update_epochs": 4,
+      "cpu_threads": 1
+    },
+    "visualization": {
+      "wellbeing_weights": {
+        "health": 1.0,
+        "energy": 1.0,
+        "hunger": 1.0,
+        "happiness": 1.0,
+        "stress": 1.0,
+        "social": 1.0
+      }
+    }
+  },
+  "checkpoint_metadata": {
+    "seed": 223,
+    "episodes": 100,
+    "days": 30,
+    "algorithm": "MAPPO",
+    "config": {
+      "simulation": {
+        "population": 10,
+        "ticks_per_day": 24,
+        "episode_days": 30,
+        "movement_steps_per_tick": 8
+      },
+      "economy": {
+        "starting_cash": 35,
+        "starting_food": 1,
+        "food_price": 5,
+        "starting_vacancies": 10,
+        "clinic_visit_cost": 10,
+        "shop_daily_restock": 8,
+        "hunger_drift_per_tick": 0.7
+      },
+      "reward": {
+        "wellbeing_delta": 0.05,
+        "starvation": 0.3,
+        "survival": 0.5,
+        "sustainable_work": 0.08,
+        "financial_stability": 0.15,
+        "employment_acquisition": 0.25
+      },
+      "training": {
+        "algorithm": "MAPPO",
+        "seed": 223,
+        "learning_rate": 0.0003,
+        "gamma": 0.99,
+        "gae_lambda": 0.95,
+        "clip": 0.2,
+        "entropy": 0.01,
+        "update_epochs": 4,
+        "cpu_threads": 1
+      },
+      "visualization": {
+        "wellbeing_weights": {
+          "health": 1.0,
+          "energy": 1.0,
+          "hunger": 1.0,
+          "happiness": 1.0,
+          "stress": 1.0,
+          "social": 1.0
+        }
+      }
+    }
+  },
+  "deterministic": false,
+  "decision_mode": "stochastic_sample",
+  "episodes": [
+    {
+      "seed": 3004,
+      "reward": 60.43615833333323,
+      "wellbeing": 89.1375,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "avg_money": 36.9,
+      "hunger_incidents": 0,
+      "mean_health": 98.87499999999996,
+      "mean_stress": 3.3999999999999964,
+      "mean_social_satisfaction": 91.81000000000014,
+      "wealth_gini": 0.06856368563685633
+    },
+    {
+      "seed": 3005,
+      "reward": 60.83110666666668,
+      "wellbeing": 88.85666666666665,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "avg_money": 38.0,
+      "hunger_incidents": 0,
+      "mean_health": 98.67999999999995,
+      "mean_stress": 1.8499999999999954,
+      "mean_social_satisfaction": 94.68000000000009,
+      "wealth_gini": 0.09842105263157896
+    },
+    {
+      "seed": 3006,
+      "reward": 60.66541728248139,
+      "wellbeing": 87.50427898296171,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "avg_money": 41.1,
+      "hunger_incidents": 0,
+      "mean_health": 99.325,
+      "mean_stress": 3.5499999999999963,
+      "mean_social_satisfaction": 91.63067389777034,
+      "wealth_gini": 0.09416058394160576
+    }
+  ],
+  "mean_reward": 60.64422742749377
+}

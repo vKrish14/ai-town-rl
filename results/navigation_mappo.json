@@ -1,0 +1,118 @@
+{
+  "mode": "learned",
+  "checkpoint": "models\\mappo.pt",
+  "deterministic": false,
+  "population": 10,
+  "episodes": [
+    {
+      "seed": 6001,
+      "days": 60,
+      "duplicate_cell_ticks": 0,
+      "blocked_agent_ticks": 279,
+      "blocked_agent_tick_rate": 0.019375,
+      "max_consecutive_blocked_ticks": 25,
+      "max_blocked_context": {
+        "citizen": 5,
+        "name": "Nora",
+        "position": [
+          32,
+          10
+        ],
+        "target": [
+          32,
+          9
+        ],
+        "action": 7,
+        "path_length": 1,
+        "first_path_cell": [
+          32,
+          9
+        ]
+      },
+      "unreachable_path_ticks": 1,
+      "off_grid_agent_ticks": 0,
+      "unique_cells_visited": 224,
+      "max_cell_occupancy": 1,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "mean_wellbeing": 87.11750000000002,
+      "mean_health": 98.695,
+      "mean_hunger": 17.169999999999995,
+      "min_cash": 35.0
+    },
+    {
+      "seed": 6002,
+      "days": 60,
+      "duplicate_cell_ticks": 0,
+      "blocked_agent_ticks": 164,
+      "blocked_agent_tick_rate": 0.01138888888888889,
+      "max_consecutive_blocked_ticks": 11,
+      "max_blocked_context": {
+        "citizen": 6,
+        "name": "Ivo",
+        "position": [
+          32,
+          10
+        ],
+        "target": [
+          32,
+          9
+        ],
+        "action": 0,
+        "path_length": 1,
+        "first_path_cell": [
+          32,
+          9
+        ]
+      },
+      "unreachable_path_ticks": 0,
+      "off_grid_agent_ticks": 0,
+      "unique_cells_visited": 242,
+      "max_cell_occupancy": 1,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "mean_wellbeing": 89.47750000000003,
+      "mean_health": 100.0,
+      "mean_hunger": 11.039999999999996,
+      "min_cash": 33.0
+    },
+    {
+      "seed": 6003,
+      "days": 60,
+      "duplicate_cell_ticks": 0,
+      "blocked_agent_ticks": 208,
+      "blocked_agent_tick_rate": 0.014444444444444444,
+      "max_consecutive_blocked_ticks": 16,
+      "max_blocked_context": {
+        "citizen": 0,
+        "name": "Mira",
+        "position": [
+          26,
+          10
+        ],
+        "target": [
+          27,
+          10
+        ],
+        "action": 0,
+        "path_length": 1,
+        "first_path_cell": [
+          27,
+          10
+        ]
+      },
+      "unreachable_path_ticks": 0,
+      "off_grid_agent_ticks": 0,
+      "unique_cells_visited": 220,
+      "max_cell_occupancy": 1,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "mean_wellbeing": 90.64583333333333,
+      "mean_health": 99.48999999999998,
+      "mean_hunger": 9.399999999999997,
+      "min_cash": 35.0
+    }
+  ],
+  "seed_start": 6001,
+  "days": 60
+}

@@ -1,0 +1,220 @@
+{
+  "mode": "Learned MAPPO",
+  "algorithm": "MAPPO",
+  "checkpoint": "models/mappo.pt",
+  "seed_start": 9001,
+  "days": 30,
+  "config": {
+    "simulation": {
+      "population": 10,
+      "ticks_per_day": 24,
+      "episode_days": 30,
+      "movement_steps_per_tick": 8
+    },
+    "economy": {
+      "starting_cash": 35,
+      "starting_food": 1,
+      "food_price": 7,
+      "starting_vacancies": 10,
+      "clinic_visit_cost": 10,
+      "shop_daily_restock": 8,
+      "hunger_drift_per_tick": 0.7
+    },
+    "reward": {
+      "wellbeing_delta": 0.05,
+      "starvation": 0.3,
+      "survival": 0.5,
+      "sustainable_work": 0.08,
+      "financial_stability": 0.15,
+      "employment_acquisition": 0.25
+    },
+    "training": {
+      "algorithm": "MAPPO",
+      "seed": 7,
+      "learning_rate": 0.0003,
+      "gamma": 0.99,
+      "gae_lambda": 0.95,
+      "clip": 0.2,
+      "entropy": 0.01,
+      "update_epochs": 4,
+      "cpu_threads": 1
+    }
+  },
+  "checkpoint_metadata": {
+    "seed": 23,
+    "episodes": 100,
+    "days": 30,
+    "algorithm": "MAPPO",
+    "config": {
+      "simulation": {
+        "population": 10,
+        "ticks_per_day": 24,
+        "episode_days": 30,
+        "movement_steps_per_tick": 8
+      },
+      "economy": {
+        "starting_cash": 35,
+        "starting_food": 1,
+        "food_price": 5,
+        "starting_vacancies": 10,
+        "clinic_visit_cost": 10,
+        "shop_daily_restock": 8,
+        "hunger_drift_per_tick": 0.7
+      },
+      "reward": {
+        "wellbeing_delta": 0.05,
+        "starvation": 0.3,
+        "survival": 0.5,
+        "sustainable_work": 0.08,
+        "financial_stability": 0.15,
+        "employment_acquisition": 0.25
+      },
+      "training": {
+        "algorithm": "MAPPO",
+        "seed": 23,
+        "learning_rate": 0.0003,
+        "gamma": 0.99,
+        "gae_lambda": 0.95,
+        "clip": 0.2,
+        "entropy": 0.01,
+        "update_epochs": 4,
+        "cpu_threads": 1
+      }
+    }
+  },
+  "deterministic": false,
+  "decision_mode": "stochastic_sample",
+  "episodes": [
+    {
+      "seed": 9001,
+      "reward": 23.241575000000044,
+      "wellbeing": 90.41083333333334,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "avg_money": 42.2,
+      "hunger_incidents": 0,
+      "mean_health": 99.94,
+      "mean_stress": 5.339999999999953,
+      "mean_social_satisfaction": 93.87500000000014,
+      "wealth_gini": 0.07109004739336489
+    },
+    {
+      "seed": 9002,
+      "reward": 25.280700000000046,
+      "wellbeing": 88.78333333333333,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "avg_money": 45.2,
+      "hunger_incidents": 0,
+      "mean_health": 100.0,
+      "mean_stress": 9.660000000000064,
+      "mean_social_satisfaction": 91.60000000000021,
+      "wealth_gini": 0.06194690265486713
+    },
+    {
+      "seed": 9003,
+      "reward": 18.192443333333383,
+      "wellbeing": 89.73,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "avg_money": 46.5,
+      "hunger_incidents": 0,
+      "mean_health": 99.00999999999998,
+      "mean_stress": 4.979999999999996,
+      "mean_social_satisfaction": 93.02000000000012,
+      "wealth_gini": 0.08666666666666667
+    },
+    {
+      "seed": 9004,
+      "reward": 22.530618333333372,
+      "wellbeing": 86.7225,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "avg_money": 43.6,
+      "hunger_incidents": 0,
+      "mean_health": 99.49499999999998,
+      "mean_stress": 6.330000000000015,
+      "mean_social_satisfaction": 90.15000000000016,
+      "wealth_gini": 0.09449541284403651
+    },
+    {
+      "seed": 9005,
+      "reward": 23.740734813847684,
+      "wellbeing": 92.229029610286,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "avg_money": 38.5,
+      "hunger_incidents": 0,
+      "mean_health": 99.88,
+      "mean_stress": 8.890000000000057,
+      "mean_social_satisfaction": 94.45417766171627,
+      "wealth_gini": 0.10831168831168814
+    },
+    {
+      "seed": 9006,
+      "reward": 22.17127000000004,
+      "wellbeing": 89.98333333333332,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "avg_money": 45.1,
+      "hunger_incidents": 0,
+      "mean_health": 100.0,
+      "mean_stress": 7.459999999999987,
+      "mean_social_satisfaction": 92.72000000000011,
+      "wealth_gini": 0.0764966740576496
+    },
+    {
+      "seed": 9007,
+      "reward": 24.796311666666703,
+      "wellbeing": 85.8141666666667,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "avg_money": 47.3,
+      "hunger_incidents": 0,
+      "mean_health": 99.27499999999995,
+      "mean_stress": 6.749999999999977,
+      "mean_social_satisfaction": 88.94000000000018,
+      "wealth_gini": 0.049260042283298056
+    },
+    {
+      "seed": 9008,
+      "reward": -4.997467480254135,
+      "wellbeing": 84.35971706158368,
+      "survival_rate": 0.9,
+      "employment_rate": 1.0,
+      "avg_money": 39.9,
+      "hunger_incidents": 1,
+      "mean_health": 89.60999999999999,
+      "mean_stress": 7.830000000000021,
+      "mean_social_satisfaction": 89.87830236950226,
+      "wealth_gini": 0.09498746867167918
+    },
+    {
+      "seed": 9009,
+      "reward": -6.826432934318339,
+      "wellbeing": 86.52120798029941,
+      "survival_rate": 0.9,
+      "employment_rate": 1.0,
+      "avg_money": 42.3,
+      "hunger_incidents": 1,
+      "mean_health": 89.77499999999998,
+      "mean_stress": 6.719999999999963,
+      "mean_social_satisfaction": 89.22224788179663,
+      "wealth_gini": 0.06264775413711576
+    },
+    {
+      "seed": 9010,
+      "reward": 20.91462166666671,
+      "wellbeing": 92.30916666666667,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "avg_money": 45.7,
+      "hunger_incidents": 0,
+      "mean_health": 100.0,
+      "mean_stress": 8.37999999999997,
+      "mean_social_satisfaction": 93.9150000000001,
+      "wealth_gini": 0.06936542669584234
+    }
+  ],
+  "mean_reward": 16.90443743992755
+}

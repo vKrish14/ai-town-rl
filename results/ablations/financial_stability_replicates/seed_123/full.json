@@ -1,0 +1,191 @@
+{
+  "mode": "Learned MAPPO",
+  "algorithm": "MAPPO",
+  "checkpoint": "models\\replicates\\mappo_seed123.pt",
+  "seed_start": 1001,
+  "days": 30,
+  "config": {
+    "town": {
+      "name": "Willowbrook",
+      "description": "A small, walkable community shaped by its residents' daily choices.",
+      "founding_day": 1,
+      "establishments": {
+        "home_01": "House 01",
+        "home_02": "House 02",
+        "home_03": "House 03",
+        "home_04": "House 04",
+        "home_05": "House 05",
+        "home_06": "House 06",
+        "home_07": "House 07",
+        "home_08": "House 08",
+        "home_09": "House 09",
+        "home_10": "House 10",
+        "office_01": "CedarWorks",
+        "office_02": "Northstar Offices",
+        "grocery_01": "GreenBasket Market",
+        "grocery_02": "Corner Pantry",
+        "restaurant_01": "The Daily Plate",
+        "clinic_01": "TownCare Clinic",
+        "park_01": "Willow Park",
+        "park_02": "Riverside Gardens",
+        "town_centre_01": "Maple Square"
+      }
+    },
+    "simulation": {
+      "population": 10,
+      "ticks_per_day": 24,
+      "episode_days": 30,
+      "movement_steps_per_tick": 8
+    },
+    "economy": {
+      "starting_cash": 35,
+      "starting_food": 1,
+      "food_price": 5,
+      "starting_vacancies": 10,
+      "clinic_visit_cost": 10,
+      "shop_daily_restock": 8,
+      "hunger_drift_per_tick": 0.7
+    },
+    "reward": {
+      "wellbeing_delta": 0.05,
+      "starvation": 0.3,
+      "survival": 0.5,
+      "sustainable_work": 0.08,
+      "financial_stability": 0.15,
+      "employment_acquisition": 0.25
+    },
+    "training": {
+      "algorithm": "MAPPO",
+      "seed": 7,
+      "learning_rate": 0.0003,
+      "gamma": 0.99,
+      "gae_lambda": 0.95,
+      "clip": 0.2,
+      "entropy": 0.01,
+      "update_epochs": 4,
+      "cpu_threads": 1
+    },
+    "visualization": {
+      "wellbeing_weights": {
+        "health": 1.0,
+        "energy": 1.0,
+        "hunger": 1.0,
+        "happiness": 1.0,
+        "stress": 1.0,
+        "social": 1.0
+      }
+    }
+  },
+  "checkpoint_metadata": {
+    "seed": 123,
+    "episodes": 100,
+    "days": 30,
+    "algorithm": "MAPPO",
+    "config": {
+      "simulation": {
+        "population": 10,
+        "ticks_per_day": 24,
+        "episode_days": 30,
+        "movement_steps_per_tick": 8
+      },
+      "economy": {
+        "starting_cash": 35,
+        "starting_food": 1,
+        "food_price": 5,
+        "starting_vacancies": 10,
+        "clinic_visit_cost": 10,
+        "shop_daily_restock": 8,
+        "hunger_drift_per_tick": 0.7
+      },
+      "reward": {
+        "wellbeing_delta": 0.05,
+        "starvation": 0.3,
+        "survival": 0.5,
+        "sustainable_work": 0.08,
+        "financial_stability": 0.15,
+        "employment_acquisition": 0.25
+      },
+      "training": {
+        "algorithm": "MAPPO",
+        "seed": 123,
+        "learning_rate": 0.0003,
+        "gamma": 0.99,
+        "gae_lambda": 0.95,
+        "clip": 0.2,
+        "entropy": 0.01,
+        "update_epochs": 4,
+        "cpu_threads": 1
+      }
+    }
+  },
+  "deterministic": false,
+  "decision_mode": "stochastic_sample",
+  "episodes": [
+    {
+      "seed": 1001,
+      "reward": 32.47327074631888,
+      "wellbeing": 87.68254825971063,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "avg_money": 34.3,
+      "hunger_incidents": 0,
+      "mean_health": 97.86999999999998,
+      "mean_stress": 3.3799999999999955,
+      "mean_social_satisfaction": 91.9552895582639,
+      "wealth_gini": 0.21603498542274036
+    },
+    {
+      "seed": 1002,
+      "reward": 32.47657666666667,
+      "wellbeing": 87.46666666666671,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "avg_money": 38.1,
+      "hunger_incidents": 0,
+      "mean_health": 99.925,
+      "mean_stress": 2.8099999999999996,
+      "mean_social_satisfaction": 87.51500000000028,
+      "wealth_gini": 0.11049868766404192
+    },
+    {
+      "seed": 1003,
+      "reward": 31.524013333333336,
+      "wellbeing": 89.32500000000002,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "avg_money": 34.9,
+      "hunger_incidents": 0,
+      "mean_health": 99.655,
+      "mean_stress": 2.3299999999999996,
+      "mean_social_satisfaction": 91.83500000000015,
+      "wealth_gini": 0.12234957020057302
+    },
+    {
+      "seed": 1004,
+      "reward": 32.52595999999998,
+      "wellbeing": 86.06833333333336,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "avg_money": 40.1,
+      "hunger_incidents": 0,
+      "mean_health": 97.59999999999995,
+      "mean_stress": 2.809999999999999,
+      "mean_social_satisfaction": 92.18000000000012,
+      "wealth_gini": 0.12294264339152106
+    },
+    {
+      "seed": 1005,
+      "reward": 31.402604233368415,
+      "wellbeing": 86.48401800070158,
+      "survival_rate": 1.0,
+      "employment_rate": 1.0,
+      "avg_money": 36.9,
+      "hunger_incidents": 0,
+      "mean_health": 98.63499999999999,
+      "mean_stress": 3.479999999999997,
+      "mean_social_satisfaction": 86.40910800420954,
+      "wealth_gini": 0.13035230352303517
+    }
+  ],
+  "mean_reward": 32.080484995937454
+}
