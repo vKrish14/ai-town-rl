@@ -1,6 +1,9 @@
-# AI Town: A Living Autonomous Society
+# Willowbrook: A Town of AI Agents
 
 AI Town is a headless multi-agent life simulation with a cozy procedural desktop viewer. Citizen life choices are represented as learned policy actions; the graphical application can load a PPO or MAPPO checkpoint or display clearly labelled random and rule-based baselines.
+
+<img width="1917" height="1022" alt="image" src="https://github.com/user-attachments/assets/38a400b1-22a9-4124-8fba-36a5a976ef8d" />
+
 
 ## Install (Windows PowerShell)
 
